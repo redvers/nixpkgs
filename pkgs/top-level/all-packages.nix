@@ -17712,6 +17712,8 @@ in
 
   bt-fw-converter = callPackage ../os-specific/linux/firmware/bt-fw-converter { };
 
+  brightlight = callPackage ../os-specific/linux/brightlight { };
+
   brillo = callPackage ../os-specific/linux/brillo { };
 
   broadcom-bt-firmware = callPackage ../os-specific/linux/firmware/broadcom-bt-firmware { };
